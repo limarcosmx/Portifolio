@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - Limarcos Tech</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html"><img src="Logo.png" alt="Logo Limarcos Tech"></a>
+      <h1>Limarcos Tech</h1>
+    </div>
+    <button id="toggle-theme">🌙 Tema Escuro</button>
+  </header>
+
+  <nav class="Navigation">
+    <a href="sobre.html">Sobre Mim</a>
+    <a href="portifolio.html">Portfólio</a>
+    <a href="formacao.html">Formação</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Contato</h2>
+      <p>Whatsapp: +55 55 9 9220-6626</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/marcos-lima-1b9361306">Perfil</a></p>
+      <p>Email: Limarcosmx@gmail.com</p>
+    </section>
+
+    <section class="form-container">
+      <h2>Entre em Contato</h2>
+      <form id="contato-form" onsubmit="validarFormulario(event)">
+        <input type="text" id="nome" placeholder="Seu Nome" required>
+        <input type="email" id="email" placeholder="Seu Email" required>
+        <textarea id="mensagem" placeholder="Sua Mensagem" rows="4" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
